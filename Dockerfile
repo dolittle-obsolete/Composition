@@ -33,4 +33,6 @@ WORKDIR /app
 COPY --from=build-env /app/Source/out ./
 COPY --from=build-env /app/Source/.dolittle ./.dolittle
 
+EXPOSE 9700
+
 ENTRYPOINT ["dotnet", "Server.dll"]

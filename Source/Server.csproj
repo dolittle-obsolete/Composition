@@ -9,7 +9,7 @@
 
     <ItemGroup>
         <PackageReference Include="Dolittle.Fundamentals" Version="4.*"/>
-        <PackageReference Include="Dolittle.Runtime.Server" Version="4.*"/>
+        <PackageReference Include="Dolittle.Runtime" Version="4.*"/>
         <PackageReference Include="Dolittle.TimeSeries.Runtime" Version="1.*"/>
     </ItemGroup>
 </Project>
